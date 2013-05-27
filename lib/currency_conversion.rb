@@ -1,5 +1,5 @@
-require "currency_conversion/model"
 
+require "currency_conversion/model"
 module CurrencyConversion
 
 end
