@@ -20,3 +20,11 @@ For usage just include the include CurrencyConversion::Mode in the model you wan
   @user.credit_to "gbp", "eur" # This covert the value in the great britain pound to euro.  
 </pre> 
 
+For simple ruby just do as follows,
+<pre>
+     include CurrencyConversion::InstanceMethods
+     make_transaction(ammount, from, to) # Ammount is the value to be converted whereas from and to are currencies.
+</pre>
+### Default
+
+The currency is us dollars and it is using google currency api's. 
