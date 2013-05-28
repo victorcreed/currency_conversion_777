@@ -17,7 +17,7 @@ For usage just include the include CurrencyConversion::Mode in the model you wan
      end
   end
   @user.credit_to "gbp" # This covert the value in the great britain pound.
-  @user.credit_to "gbp", "eur" # This covert the value in the great britain pound to euro.  
+  @user.credit_to "gbp", "eur" # This covert the value in the euro to great britain pound.  
 </pre> 
 
 For simple ruby just do as follows,
